@@ -12,7 +12,7 @@ balloonImage2=loadAnimation("Hot Air Ballon-02.png","Hot Air Ballon-02.png","Hot
 
 function setup() {
   database=firebase.database();
-  createCanvas(1500,700);
+  createCanvas(1000,700);
   balloon =createSprite(400, 200, 50, 50);
  balloon.addAnimation("balloon",balloonImage1);
 balloon.scale=0.5;
